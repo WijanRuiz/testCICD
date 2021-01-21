@@ -29,4 +29,5 @@ jobs:
           server: ftp-eu.site4now.net
           username: wijanruiz-002
           password: ${{ secrets.ftp_password }}
+          local-dir: dist/testCICD/
           server-dir: testCICD/
